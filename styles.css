@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe4e1;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+h1 {
+    color: #ff4081;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#newScenarioBtn {
+    background-color: #ff4081;
+    color: white;
+}
+
+#stayBtn {
+    background-color: #4caf50;
+    color: white;
+}
+
+#runBtn {
+    background-color: #f44336;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#reaction {
+    margin-top: 20px;
+    display: none;
+}
+
+#reactionGif {
+    width: 300px;
+    border-radius: 10px;
+}
